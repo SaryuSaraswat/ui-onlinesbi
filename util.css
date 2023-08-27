@@ -1,0 +1,385 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+
+    margin: 10px;
+}
+
+.container {
+    max-width: 80vw;
+}
+
+.navbar {
+    display: flex;
+    height: 67px;
+}
+
+.navbar1 {
+    display: flex;
+    height: 67px;
+}
+
+.navbar li {
+    list-style: none;
+    margin: 0 70px;
+}
+
+.navbar1 li {
+    list-style: none;
+    color: white;
+}
+
+.perbank {
+    height: 10vw;
+    width: 80vw;
+}
+
+.borderp {
+    height: 2vw;
+    width: 80vw;
+}
+
+div {
+    margin-bottom: 10px;
+}
+
+fieldset {
+    margin-bottom: 10px;
+}
+
+ul {
+    width: 80vw;
+    height: 2px;
+}
+
+.field1 {
+    max-width: 18vw;
+    max-height: 4000vw;
+}
+
+p {
+    margin-top: 15px;
+    color: black;
+}
+
+.min-h-screen {
+    min-height: 0vh;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.section2 {
+    background-color: #1b75bc;
+    font-weight: bold;
+}
+
+.borderp {
+    border-color: black;
+    font-family: monospace;
+    background-color: rgb(176, 241, 219);
+}
+
+.container-div {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    background-color: #4db5de;
+}
+
+.background-img {
+
+    height: 200px;
+    width: 70%;
+    background-image: url("./sbi.png");
+    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    justify-content: end;
+    gap: 15px;
+    color: blue;
+  
+}
+.main-right-side {
+    height: 200px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.right-div {
+    height: 200px;
+    width: 100%;
+    border: 1px solid white;
+    border-top-left-radius: 40%;
+    border-bottom-left-radius: 40%;
+    background-color: #d6eef6;
+    display: flex;
+    flex-direction: column;
+}
+.button-div{
+
+   margin-top: 20%;
+   height: 60px;
+   width: 100%;
+   padding-left:50px ;
+   border: none;
+   
+}
+.anchor-div{
+ 
+    padding: 10px;
+}
+a{
+    color: rgb(16, 17, 17);
+    text-decoration: none;
+}
+
+.anchor-tag{
+    margin-top: 20px;
+    color: black;
+    text-decoration: none;
+}
+.text-div{
+    height: 60px;
+    width: 100%;
+    margin-left: 50px;
+    margin-top: 0px;
+    font-size: 16px;
+    font-weight: bold;
+    color: blue;
+ 
+
+}
+.login{
+    background-color: #2b9dcc;
+    color: #fff;
+    font-weight:bolder ;
+    width: 70%;
+    height: 45px;
+    border: none;
+    font-size: 20px;
+}
+.login:hover{
+    background-color:#1a6eb1;
+}
+
+
+.OTP {
+    align-items: baseline;
+    margin-top: 90px;
+    margin-right: 100px;
+    width: 270px;
+    color: blue;
+    height: 10px;
+}
+
+li {
+    list-style: none;
+    color: blue;
+    width: 50%;
+    height: 20px;
+}
+
+.img-bottom-list {
+    width: 50%;
+    height: 10px;
+    margin-top: 20px;
+}
+
+.box {
+    width: 80vw;
+    height: 35px;
+    font-family: monospace;
+}
+
+.container-main {
+    width: 80vw;
+    height: 150px;
+}
+
+.table1 {
+    width: 18vw;
+    height: 120px;
+    margin-top: 12px;
+}
+
+.table2 {
+    width: 18vw;
+    height: 120px;
+    margin-top: 12px;
+}
+
+.table3 {
+    width: 18vw;
+    height: 120px;
+    margin-top: 12px;
+}
+
+.table4 {
+    width: 18vw;
+    height: 120px;
+    margin-top: 12px;
+}
+
+.justify {
+    justify-content: space-between;
+}
+
+.smiley {
+    width: 18vw;
+    height: 40px;
+    text-align: center;
+    background-color: #e5e5e5;
+}
+
+.smiley-bottom {
+    text-align: center;
+    font-family: monospace;
+    font-size: 14px;
+}
+
+h3 {
+    text-align: center;
+    color: blue;
+}
+
+.container-footer {
+    width: 80vw;
+    height: 300px;
+}
+
+.para1 {
+    height: 240px;
+    width: 40vw;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.para2 {
+    height: 240px;
+    width: 40vw;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+fieldset{
+    border-color: grey;
+}
+
+.para1-bottom {
+    height: 100px;
+    width: 700px;
+    margin-top: 0;
+    margin-left: 40px;
+    font-size: 13px;
+    text-align: left;
+}
+
+.para2-bottom {
+    height: 140px;
+    width: 700px;
+    margin-top: 0;
+    margin-left: 10px;
+    font-size: 13px;
+    text-align: left;
+}
+
+.para1-top.flex {
+    background-color: #e6e6d8;
+    margin: 20px;
+    height: 50px;
+    text-align: left;
+}
+
+.para2-top.flex {
+    background-color: #e6e6d8;
+    margin: 20px;
+    height: 50px;
+    text-align: left;
+}
+.para-heading{
+    margin-top: 15px;
+    margin-left: 10px;
+    color: #555555;
+}
+
+.Lang {
+    margin-left: 600px;
+    font-weight: bold;
+}
+
+.Net {
+    margin-left: -300px;
+    margin-right: -880px;
+}
+
+ .Contact {
+    margin-top: 20px;
+    margin-left: -230px;
+}
+
+.Manage {
+    margin-top: 20px;
+    margin-left: -320px;
+}
+
+.Help {
+    margin-top: 20px;
+    margin-left: -300px;
+}
+.home {
+    margin-top: 20px;
+    margin-left: 30px;
+} 
+
+ .Products {
+    margin-top: 20px;
+    margin-left: -400px;
+} 
+
+.Net {
+    margin-left: -150px;
+}
+.Forms {
+    margin-left: -100px;
+}
+
+.OnlineSBI {
+    margin-left: 500px;
+}
+.language{
+    background-color: brown;
+    color: white;
+    margin-left: -100px;
+}
+
+.emoji{
+    height: 25px;
+    width: 25px;
+    margin-left: -40px;
+    margin-top: 10px;
+}
+
+.always{
+    margin-left: 40px;
+}
+.never{
+    margin-left: 40px;
+}
